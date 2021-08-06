@@ -61,4 +61,6 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 input_img = cv.imread('images/salt-and-pepper-mine.jpg')
 gaussian_filtered_pic = cv.GaussianBlur(input_img, (3,3), 0, borderType = cv.BORDER_CONSTANT)
-plt.imshow(gaussian_filtered_pic)
+plt.imshow(input_img)
+#plt.imshow(gaussian_filtered_pic)
+#cv.imwrite('images/gaussian_filtered_pic.jpg', gaussian_filtered_pic)
