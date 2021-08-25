@@ -64,3 +64,4 @@ gaussian_filtered_pic = cv.GaussianBlur(input_img, (3,3), 0, borderType = cv.BOR
 plt.imshow(input_img)
 #plt.imshow(gaussian_filtered_pic)
 #cv.imwrite('images/gaussian_filtered_pic.jpg', gaussian_filtered_pic)
+#Thank You
